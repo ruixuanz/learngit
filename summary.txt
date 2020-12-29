@@ -40,3 +40,12 @@ git log: check the commit history
 git checkout -- <file>: undo modifications in the working space
 git reset HEAD <file>: if the file has already been added to the stage, undo and and use the above command to undo the operations in working space
 
+
+
+git branch: check all branches
+git branch <name>: create a new branch
+git switch <name>: switch to another branch
+git switch -c <name>: create and switch to a new branch
+git merge <name>: merge some branch to the current branch
+git branch -d <name>: delete a branch
+
