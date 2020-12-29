@@ -1,0 +1,42 @@
+The key steps to create a repository and push the contents:
+
+Step 1: git add <file>
+
+	# add the files into stage	
+
+Step 2: git commit -m <message>
+
+	# commit to the local repository
+
+Step 3: git remote add origin <SSH>
+
+	# connect to the remote repository
+
+Step 4: git push -u origin master
+
+	# commit all contents to the master fork
+
+
+
+Remove a file:
+
+Step 1: git rm <file>
+
+	# remove the file in the repository
+
+Step 2: rm <file>
+
+	# remove the file in the working space
+
+Step 3: git commit -m <remove file>
+
+
+
+
+
+
+git reset --hard commit_id: make the pointer HEAD to the version of commit_id
+git log: check the commit history
+git checkout -- <file>: undo modifications in the working space
+git reset HEAD <file>: if the file has already been added to the stage, undo and and use the above command to undo the operations in working space
+
